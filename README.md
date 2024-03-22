@@ -127,3 +127,148 @@
   3. Check for log recordings.
 - **Expected Result**: The app logs actions in a file.
 
+## TC018: Display and Focus on Layout Button Functionality
+- **Objective**: Verify the 'Display and Focus on Layout' button shows a new layout screen.
+- **Preconditions**: App launched, main screen displayed.
+- **Steps**:
+  1. Click the 'Display and Focus on Layout' button.
+  2. Observe the response.
+- **Expected Result**: The app displays a new screen with a layout that automatically receives focus.
+
+## TC019: Display Toast Button Functionality
+- **Objective**: Verify the 'Display Toast' button shows a Toast message.
+- **Preconditions**: App launched, screen with 'Display Toast' button displayed.
+- **Steps**:
+  1. Click the 'Display Toast' button.
+  2. Observe the response.
+- **Expected Result**: The app displays a Toast message.
+
+## TC020: Show Exception Dialog Button Functionality
+- **Objective**: Verify the 'Show Exception Dialog' button displays an exception dialog.
+- **Preconditions**: App launched, relevant screen displayed.
+- **Steps**:
+  1. Click the 'Show Exception Dialog' button.
+  2. Observe the response.
+- **Expected Result**: The app displays a dialog with exception information.
+
+## TC021: Show Progress Dialog Button Functionality
+- **Objective**: Verify the 'Show Progress Dialog' button displays a progress dialog.
+- **Preconditions**: App launched, main screen displayed.
+- **Steps**:
+  1. Click the 'Show Progress Dialog' button.
+  2. Observe the response.
+- **Expected Result**: The app displays a progress dialog.
+
+## TC022: Start Another Activity Button Functionality
+- **Objective**: Verify the 'Start Another Activity' button launches a new activity.
+- **Preconditions**: App launched, main screen displayed.
+- **Steps**:
+  1. Click the 'Start Another Activity' button.
+  2. Observe the response.
+- **Expected Result**: The app launches a new activity.
+
+## TC023: Checkbox Element Functionality
+- **Objective**: Verify the functionality of the Checkbox element.
+- **Preconditions**: App launched, screen with Checkbox element displayed.
+- **Steps**:
+  1. Check and uncheck the checkbox.
+  2. Observe the response.
+- **Expected Result**: The app responds to the checkbox state change as expected.
+
+## TC024: Take Screenshot Functionality
+- **Objective**: Verify the 'Take Screenshot' function captures and saves a screenshot.
+- **Preconditions**: App launched, relevant screen displayed.
+- **Steps**:
+  1. Click the 'Take Screenshot' button.
+  2. Check for the screenshot.
+- **Expected Result**: The app takes and saves a screenshot.
+
+## TC025: Show Custom Dialog Button Functionality
+- **Objective**: Verify the 'Show Custom Dialog' button displays a custom dialog.
+- **Preconditions**: App launched, relevant screen displayed.
+- **Steps**:
+  1. Click the 'Show Custom Dialog' button.
+  2. Observe the response.
+- **Expected Result**: The app displays a custom dialog.
+
+## TC026: Open URL Button Functionality
+- **Objective**: Verify the 'Open URL' button opens a new WebView screen with a URL.
+- **Preconditions**: App launched, screen with 'Open URL' button displayed.
+- **Steps**:
+  1. Click the 'Open URL' button.
+  2. Observe the response.
+- **Expected Result**: The app opens a new activity with a WebView displaying a URL.
+
+## TC027: Show Location Dialog Button Functionality
+- **Objective**: Verify the 'Show Location Dialog' button displays a location dialog.
+- **Preconditions**: App launched, main screen displayed.
+- **Steps**:
+  1. Click the 'Show Location Dialog' button.
+  2. Observe the response.
+- **Expected Result**: The app displays a dialog with location information.
+
+## TC028: Show Layout Button Functionality
+- **Objective**: Verify the 'Show Layout' button displays a new layout screen.
+- **Preconditions**: App launched, main screen displayed.
+- **Steps**:
+  1. Click the 'Show Layout' button.
+  2. Observe the response.
+- **Expected Result**: The app displays a new screen with a specified layout.
+
+## TC029: Start User Registration Button Functionality
+- **Objective**: Verify the 'Start User Registration' button transitions to the registration screen.
+- **Preconditions**: App launched, main screen displayed.
+- **Steps**:
+  1. Click the 'Start User Registration' button.
+  2. Observe the response.
+- **Expected Result**: The app transitions to the user registration screen.
+
+## TC030: Show Toast While Waiting for Location Button Functionality
+- **Objective**: Verify the 'Show Toast While Waiting for Location' button displays a Toast message during location retrieval.
+- **Preconditions**: App launched, main screen displayed.
+- **Steps**:
+  1. Click the 'Show Toast While Waiting for Location' button.
+  2. Observe the response.
+- **Expected Result**: The app displays a Toast message while waiting for location information.
+
+## TC031: Invoke Google Search Button Functionality
+- **Objective**: Verify the 'Invoke Google Search' button initiates a Google search activity.
+- **Preconditions**: App launched, main screen displayed.
+- **Steps**:
+  1. Click the 'Invoke Google Search' button.
+  2. Observe the response.
+- **Expected Result**: The app initiates a Google search activity.
+
+## TC032: Show Dialog Button Functionality
+- **Objective**: Verify the 'Show Dialog' button displays a dialog.
+- **Preconditions**: App launched, screen with 'Show Dialog' button displayed.
+- **Steps**:
+  1. Click the 'Show Dialog' button.
+  2. Observe the response.
+- **Expected Result**: The app displays a dialog.
+
+## TC033: Create and Display a WebView Button Functionality
+- **Objective**: Verify the 'Create and Display a WebView' button creates and shows a WebView.
+- **Preconditions**: App launched, main screen displayed.
+- **Steps**:
+  1. Click the 'Create and Display a WebView' button.
+  2. Observe the response.
+- **Expected Result**: The app creates and displays a WebView with specified content.
+
+## TC034: Show and Hide Keyboard Button Functionality
+- **Objective**: Verify the 'Show and Hide Keyboard' button displays and hides the keyboard.
+- **Preconditions**: App launched, screen with text input capability displayed.
+- **Steps**:
+  1. Click on the text field to display the keyboard.
+  2. Click the 'Hide Keyboard' button.
+  3. Observe the response.
+- **Expected Result**: The app displays and hides the keyboard according to user actions.
+
+## TC035: Display a Toast Button Functionality
+- **Objective**: Verify the 'Display a Toast' button shows a Toast message.
+- **Preconditions**: App launched, main screen displayed.
+- **Steps**:
+  1. Click the 'Display a Toast' button.
+  2. Observe the response.
+- **Expected Result**: The app displays a Toast message.
+

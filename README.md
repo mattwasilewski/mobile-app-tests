@@ -18,6 +18,9 @@ The primary goal is to learn and demonstrate basic testing skills by automating 
 - **Execution**: Using Appium to run automated tests on the emulator.
 
 
+
+
+
 # Test Cases
 
 ## TC001: Show Toast Button Functionality

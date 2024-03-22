@@ -1,4 +1,4 @@
-# Tesst plan for Selendroid-test-app.apk
+# Test plan for Selendroid-test-app.apk
 
 This test plan is designed for beginners and outlines a basic approach to testing the Selendroid-test-app using Appium. It's a great starting point for those new to software testing and looking to showcase their skills on GitHub.
 

@@ -1,6 +1,24 @@
-# mobile-app-tests
+# Tesst plan for Selendroid-test-app.apk
 
-# Test Cases for Selendroid-test-app.apk
+This test plan is designed for beginners and outlines a basic approach to testing the Selendroid-test-app using Appium. It's a great starting point for those new to software testing and looking to showcase their skills on GitHub.
+
+## Objective
+The primary goal is to learn and demonstrate basic testing skills by automating tests for the Selendroid-test-app, focusing on key functionalities and user interface elements.
+
+## Test Environment
+- **Device**: Android Emulator (available in Android Studio).
+- **Tools**: Appium for automation, Android Studio for managing the emulator and app.
+
+## Scope of Testing
+- **Functional Testing**: Verifying that the primary functions of the app work as expected.
+- **UI Testing**: Checking the basic user interface elements for proper functionality.
+
+## Test Approach
+- **Test Cases**: Simple test scenarios that cover basic app functionalities. (Refer to the provided test cases)
+- **Execution**: Using Appium to run automated tests on the emulator.
+
+
+# Test Cases
 
 ## TC001: Show Toast Button Functionality
 - **Objective**: Verify that the 'Show Toast' button displays a Toast message.

@@ -17,6 +17,8 @@ import java.time.Duration;
 
 public class ShowToastSteps {
     private final AndroidDriver driver = DriverFactory.getDriver();
+    private final WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
 
     @Given("the app is opened to the main screen")
     public void the_app_is_opened_to_the_main_screen() {
@@ -25,16 +27,14 @@ public class ShowToastSteps {
         }
     }
 
-    @When("the user clicks the 'Show Toast' button")
+    @When("the user clicks the 'Displays a Toast' button")
     public void the_user_clicks_the_show_toast_button() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement toastButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//android.widget.Button[normalize-space(@text)='Displays a Toast']")));
         toastButton.click();
     }
 
     @Then("a Toast message is displayed")
     public void a_toast_message_is_displayed() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         String toastMessage = "Hello selendroid toast!";
         String xpath = String.format("//android.widget.Toast[@text='%s']", toastMessage);
         try {
